@@ -14,9 +14,9 @@ export class Feedback {
     @Column('text', { default: '' })
     comment: string;
 
-    @Column()
-    created: string;
+    // @Column()
+    // created?: string;
 
-    @Column()
-    updated: string;
+    // @Column()
+    // updated?: string;
 }
