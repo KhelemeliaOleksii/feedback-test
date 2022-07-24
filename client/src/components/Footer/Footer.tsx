@@ -1,14 +1,24 @@
 import styled from "styled-components"
+import { GreenSmile, PinkSmile } from "../Smiles";
+import SocialList from "../SocialList";
 // type TProps = {
 //     children: ReactNode
 // }
 const StyledDiv = styled.div`
-    background-color: rgba(0,0,0,0.2);
+    background-color: #D8D8D8;
+    padding-top:70px;
+    padding-bottom: 100px;
+    padding-left: 24%;
+    width:100vw;
+    position:relative;
+    overflow: hidden;
 `
 const Footer = () => {
     return (
         <StyledDiv>
-            <div> It's Footer</div >
+            <GreenSmile />
+            <PinkSmile />
+            <SocialList />
         </StyledDiv>
     )
 }
