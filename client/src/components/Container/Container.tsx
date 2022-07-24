@@ -5,7 +5,8 @@ type TProps = {
 }
 const StyledContainer = styled.div`
     max-width: 1440px;
-    width:100%
+    width:100vw;
+    overflow: fidden;   
 `
 const Container = ({ children }: TProps) => {
     return (
